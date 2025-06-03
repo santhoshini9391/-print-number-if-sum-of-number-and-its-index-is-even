@@ -1,0 +1,6 @@
+#to print a number if sum of that number and its index is even
+l=[1,3,2,4]
+for i in range(len(l)):
+    sum= l[i]+i
+    if sum%2==0:
+        print(l[i])
